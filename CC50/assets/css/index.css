@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #000000;
+}
+
+iframe {
+  border: 2px solid #000000;
+  margin:0;
+  padding: 0;
+}
+
+iframe#sidemenu{
+  width: 15%;
+  position: absolute;
+  height: 100%;
+}
+
+iframe#inicialpage{
+ width: 100%;
+ overflow-y: hidden;
+ position: left;
+ height:99vh
+}
