@@ -64,13 +64,19 @@
   background-image: linear-gradient(#808080,#808080,#bab5b5,#ffffff);
 }
 
-a{
+nav > ul > p > a{
+  text-decoration: none;
+  color:#000000;
+  text-shadow: 1px 1px 3px #1a1919fe;
+}
+
+footer > a{
   text-decoration: none;
   color: #ffffff;
   text-shadow: 1px 1px 3px #000000;
 }
 
 a:hover{
-  color: #f81b1b;
-  transition: 1s;
+  color: #650101;
+  transition: 0.5s;
 }
